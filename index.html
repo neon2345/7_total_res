@@ -293,7 +293,7 @@
         // 加载人员数据
         async function loadPersonnelData() {
             try {
-                const response = await fetch('total_res_deal2.json');
+                const response = await fetch('total_res_deal.json');
                 const data = await response.json();
                 personnelData = data.personnel_route_assignments;
                 populatePersonnelSelect();
